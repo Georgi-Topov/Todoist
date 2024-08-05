@@ -25,7 +25,7 @@ For data persistence the following files stored on the user's system are used:
 * Install JDK -> https://www.oracle.com/java/technologies/downloads/
 * Clone the repo -> git clone https://github.com/Georgi-Topov/Todoist.git
 * Open the project folder in your favourite IDE (e.g. IntelliJ IDEA)
-* Run ServerMain
+* Run ServerMain (if the specified port is already busy, change it in ServerNio class and ClientMain class)
 * Run ClientMain (can be done many times but make sure that you modify the run configuration to allow multiple instances)
 * On the client console type: "help" to get used to the commands and their format
 
